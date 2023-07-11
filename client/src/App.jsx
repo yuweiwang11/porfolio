@@ -1,6 +1,6 @@
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
-import Home from './Home'
+import HomePage from './pages/HomePage'
 import axios from 'axios'
 
 axios.defaults.baseURL = 'http://localhost:3000'
@@ -10,7 +10,7 @@ function App() {
     <>
       <Routes>
         <Route>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<HomePage />} />
         </Route>
       </Routes>
     </>
