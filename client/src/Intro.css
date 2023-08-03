@@ -1,0 +1,29 @@
+.hello{
+  color: #392A48;
+  font-family: 'Candal';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 45px;
+  text-align: left;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.logo{
+  font-size: 35px;
+}
+
+.hello-and-logo{
+  display: flex;
+  align-items: center;
+  margin-top: 30px
+}
+
+.developer {
+  color: #392A48;
+  font-family: 'Candal';
+  font-size: 30px;
+  font-weight: 600;
+  text-align: left;
+  margin-top: 10px;
+}
