@@ -54,7 +54,7 @@ span a:after {
   color: #000;
   background: #fff;
   padding: 30px;
-  content: 'MEHread: a book reading tracker. Allowing users to effortlessly search, save, and savor books while tracking your reading journey with personalized progress markers.';
+  content: '';
   transform: rotateX(90deg) translateZ(175px);
 }
 span a:hover {
