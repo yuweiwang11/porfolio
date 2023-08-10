@@ -1,0 +1,16 @@
+.footer{
+  position: relative;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  font-family: 'Candal';
+  font-size: 20px;
+    background: #ffffff;
+
+}
+.footer-area{
+  margin-top: 50px;
+
+}

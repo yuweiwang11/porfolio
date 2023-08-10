@@ -5,7 +5,7 @@ export default function Nav() {
   return (
     <>
       <div className="nav-alignment">
-        <h1>Yuwei.W</h1>
+        <h1>YUWEI.W</h1>
         <div>
           <Link className="space-in-logos" to={'https://github.com/yuweiwang11'}>
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">

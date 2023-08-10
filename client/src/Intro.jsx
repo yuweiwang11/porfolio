@@ -4,10 +4,10 @@ export default function Intro() {
   return (
     <>
       <div className="hello-and-logo">
+        <div className="hello"> Hello, I'm Yuwei.</div>
         <div className="logo">👋 </div>
-        <div className="hello"> HELLO, MY NAME IS YUWEI.</div>
       </div>
-      <div className="developer">I am a Full Stack Software developer.</div>
+      <div className="developer">A Full Stack Software Developer.</div>
       <div></div>
     </>
   )

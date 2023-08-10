@@ -2,6 +2,7 @@ import './HomePage.css'
 import Nav from '../Nav'
 import Intro from '../Intro'
 import ProjectOne from '../ProjectOne'
+import Footer from '../Footer'
 
 export default function HomePage() {
   return (
@@ -13,6 +14,9 @@ export default function HomePage() {
         </div>
 
         <ProjectOne />
+      </div>
+      <div>
+        <Footer />
       </div>
     </>
   )

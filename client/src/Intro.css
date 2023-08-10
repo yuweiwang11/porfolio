@@ -1,12 +1,16 @@
+
 .hello{
   color: #392A48;
   font-family: 'Candal';
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 30px;
+  font-weight: 700;
   line-height: 45px;
   text-align: left;
   margin-bottom: 0px;
   margin-top: 0px;
+  letter-spacing: 1.5px;
+  /* word-spacing: 0.5px; */
+
 }
 
 .logo{
@@ -16,14 +20,19 @@
 .hello-and-logo{
   display: flex;
   align-items: center;
-  margin-top: 30px
+  margin-top: 100px;
+  
+
 }
 
 .developer {
   color: #392A48;
   font-family: 'Candal';
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 35px;
+  font-weight: 700;
   text-align: left;
-  margin-top: 10px;
+  margin-top: 15px;
+  letter-spacing: 1.5px;
+  /* word-spacing: 0.5px; */
+
 }
