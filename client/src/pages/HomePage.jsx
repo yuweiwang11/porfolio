@@ -16,10 +16,10 @@ export default function HomePage() {
           <Intro />
         </div>
         <div className="">
-          {/* <SwiperProject /> */}
-          <ProjectOne />
+          <SwiperProject />
+          {/* <ProjectOne /> */}
 
-          <ProjectTwo />
+          {/* <ProjectTwo /> */}
         </div>
       </div>
       <div>

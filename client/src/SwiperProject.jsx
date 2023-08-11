@@ -16,18 +16,15 @@ export default function SwiperProject() {
         spaceBetween={100}
         slidesPerView={1}
         navigation
-        pagination={{ clickable: true }}
-        scrollbar={{ draggable: true }}
       >
         <SwiperSlide>
           <ProjectOne />
         </SwiperSlide>
-        {/* <SwiperSlide>
+        <SwiperSlide>
           <ProjectTwo />
-        </SwiperSlide> */}
+        </SwiperSlide>
         {/* <SwiperSlide>Slide 3</SwiperSlide>
         <SwiperSlide>Slide 4</SwiperSlide> */}
-        ...
       </Swiper>
     </>
   )
