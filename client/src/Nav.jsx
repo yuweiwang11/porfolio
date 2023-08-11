@@ -7,7 +7,7 @@ export default function Nav() {
       <div className="nav-alignment">
         <h1>YUWEI.W</h1>
         <div>
-          <Link className="space-in-logos" to={'https://github.com/yuweiwang11'}>
+          <Link className="space-in-logos" to={'https://github.com/yuweiwang11'} target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
               <path
                 fill=" #290916"
@@ -15,7 +15,11 @@ export default function Nav() {
               />
             </svg>
           </Link>
-          <Link className="space-in-logos" to={'https://www.linkedin.com/in/yuwei-wang-224379157/'}>
+          <Link
+            className="space-in-logos"
+            to={'https://www.linkedin.com/in/yuwei-wang-224379157/'}
+            target="_blank"
+          >
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
               <path
                 fill="#290916"
@@ -23,7 +27,7 @@ export default function Nav() {
               />
             </svg>
           </Link>
-          <Link to={'mailto:yuweiwang@outlook.co.nz'}>
+          <Link to={'mailto:yuweiwang@outlook.co.nz'} target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
               <path
                 fill="#290916"
