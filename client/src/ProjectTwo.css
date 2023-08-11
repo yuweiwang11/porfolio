@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Amatic+SC:wght@400;700&family=Candal&family=Carter+One&family=Federo&family=Francois+One&family=Fuzzy+Bubbles:wght@400;700&family=Hi+Melody&family=Major+Mono+Display&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Montserrat:wght@400;500;600;700;800;900&family=Rammetto+One&family=Saira+Condensed:wght@300;400;700&family=Sigmar+One&family=Spectral:wght@400;500&family=Ubuntu&display=swap');
 
-.project-one {
+.project-two {
   margin: 0;
   padding: 0;
   display: flex;
@@ -33,7 +33,7 @@ span a {
 span a:before,
 span a:after {
   position: absolute;
-  content: 'button';
+  content: '';
   height: 350px;
   width: 550px;
   display: flex;
@@ -45,7 +45,7 @@ span a:after {
 }
 span a:before {
   color: #fff;
-  background: url('/public/mehread.png') no-repeat fixed center;
+  background: url('/money.jpg') no-repeat fixed center;
   background-size: 550px 350px;
   perspective: 1000px;
   transform: rotateY(0deg) translateZ(175px);
@@ -54,7 +54,7 @@ span a:after {
   color: #000;
   background: #fff;
   padding: 30px;
-  content: '';
+  content: '2222222222222222222222222222';
   transform: rotateX(90deg) translateZ(175px);
 }
 span a:hover {

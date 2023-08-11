@@ -43,17 +43,19 @@ span a:after {
   box-sizing: border-box;
   border-radius: 5px;
 }
-span a:before {
+.mehread a:before {
   color: #fff;
-  background: url('/public/mehread.png') no-repeat fixed center;
+  background: url('/mehread.png') no-repeat fixed center;
   background-size: 550px 350px;
   perspective: 1000px;
   transform: rotateY(0deg) translateZ(175px);
 }
-span a:after {
+.mehread :after {
   color: #000;
   background: #fff;
   padding: 30px;
+  /* content: '11111111111111111111'; */
+  /* content: '1111111111111111111111'; */
   content: 'MEHread: a book reading tracker. Allowing users to effortlessly search, save, and savor books while tracking your reading journey with personalized progress markers.';
   transform: rotateX(90deg) translateZ(175px);
 }
@@ -78,17 +80,29 @@ span a:hover {
   margin-top: 10px;
   padding: 5px 8px;
   margin-right: 20px;
+  margin-bottom: 20px;
   font-family: 'Montserrat';
   font-size: 20px;
   color: #fff;
   background-color: #392a48;
 }
 
-.before-button{
- position: absolute;
- margin-right: 90%;
+.visit{
+  position: relative;
+  margin-top: 10px;
+  margin-left: 20%;
+  display: inline-flex;
+  width: 650px;
+  font-family: 'Candal';
+  font-size: 25px;
+  color: #392a48;
 }
-.next-button{
-  position: absolute;
-  margin-left: 90%;
- }
+.site{
+  margin-top: 0px;
+  padding: 2px 5px;
+  margin-right: 20px;
+  font-family: 'Montserrat';
+  font-size: 20px;
+}
+
+

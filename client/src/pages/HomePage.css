@@ -39,6 +39,7 @@ font-family: 'Ubuntu', sans-serif
   max-width: 750px;
   padding: 30px 20px;
   overflow: auto;
+  
 }
 
 /*header design*/
@@ -255,3 +256,18 @@ footer {
 #js-dom-example:hover {
   animation: shake 0.5s;
 }
+
+.project{
+  position: relative;
+}
+
+.before-button{
+  position: absolute;
+  margin-right: 90%;
+  margin-top: 20%;
+ }
+ .next-button{
+   position: absolute;
+   margin-left: 90%;
+   margin-top: 20%;
+  }
