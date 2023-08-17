@@ -36,3 +36,37 @@
   /* word-spacing: 0.5px; */
 
 }
+
+@media screen and (max-width: 320px) {
+  .hello{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: center;
+
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hello{
+    font-size:25px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: left;
+
+
+  }
+
+  .developer {
+    color: #392A48;
+    font-family: 'Candal';
+    font-size: 25px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 15px;
+    letter-spacing: 1.5px;
+    /* word-spacing: 0.5px; */
+  
+  }
+}

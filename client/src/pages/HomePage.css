@@ -28,7 +28,7 @@ font-family: 'Ubuntu', sans-serif
   padding-top: 20px;
   background-color: white;
   font-family: 'Merriweather';
-}
+  
 
 .margin-body {
   position: relative;
@@ -39,7 +39,7 @@ font-family: 'Ubuntu', sans-serif
   max-width: 750px;
   padding: 30px 20px;
   overflow: auto;
-  
+}
 }
 
 /*header design*/
@@ -85,72 +85,8 @@ h1 a:visited {
   padding: 0px 0px;
 }
 
-h2 {
-  font-family: 'Candal', sans-serif;
-  font-weight: 400;
-  font-size: 28px;
-  color: #678450cb;
-  text-align: left;
-  line-height: 40px;
-  margin-bottom: 10px;
-  margin-top: 0px;
-}
 
-h2 a,
-a:visited {
-  text-decoration: none;
-  color: #678450cb;
-  text-align: left;
-}
 
-p {
-  position: relative;
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0px;
-  word-spacing: 1.5px;
-  line-height: 30px;
-  margin-top: 0px;
-  margin-bottom: 30px;
-  padding-top: 5px;
-}
-
-small {
-  position: relative;
-  /*color: rgb(121, 49, 97);*/
-  text-align: left;
-  font-size: 14px;
-  line-height: 15px;
-  margin: 0px;
-}
-
-ul {
-  position: relative;
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0px;
-  word-spacing: 1.5px;
-  line-height: 30px;
-  margin-top: 0px;
-  margin-bottom: 30px;
-  padding-top: 5px;
-}
-
-/*footer design*/
-footer {
-  position: relative;
-  margin-top: 80px;
-  padding-top: 0px;
-  font-size: 14px;
-  text-align: left;
-}
-
-#blog-h2-style {
-  color: #162011ce;
-  font-size: 35px;
-  font-weight: 600;
-  margin-bottom: 0px;
-}
 
 /* mobile device */
 @media screen and (max-width: 320px) {
@@ -211,63 +147,9 @@ footer {
   }
 }
 
-#html-css-img-style {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-bottom: 30px;
-}
 
-#html-css-img-style img {
-  max-width: 100%;
-  height: auto;
-  border: 2px dashed #c5c5c5d3;
-  border-radius: 15px;
-}
-
-#egg-fixed-position {
-  position: fixed;
-  bottom: 0px;
-  right: 20%;
-}
-
-#blog-img {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin-bottom: 30px;
-}
-
-#blog-img img {
-  max-width: 100%;
-  height: auto;
-  border: 2px dashed #c5c5c5d3;
-  border-radius: 15px;
-}
-
-#img-no-border {
-  border: 0px dashed #c5c5c5d3 !important;
-}
-
-#text-highlight {
-  background-color: #c5c5c5d3;
-}
-
-#js-dom-example:hover {
-  animation: shake 0.5s;
-}
 
 .project{
   position: relative;
 }
 
-.before-button{
-  position: absolute;
-  margin-right: 90%;
-  margin-top: 20%;
- }
- .next-button{
-   position: absolute;
-   margin-left: 90%;
-   margin-top: 20%;
-  }

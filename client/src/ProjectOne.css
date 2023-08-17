@@ -10,14 +10,15 @@
   justify-content: center;
   background: #fff;
 }
+
 span {
-  position: relative;
   display: inline-flex;
   width: 550px;
   height: 350px;
   margin: 0 15px;
   perspective: 1000px;
 }
+
 span a {
   font-size: 19px;
   letter-spacing: 1px;
@@ -32,7 +33,9 @@ span a {
 } */
 span a:before,
 span a:after {
-  position: absolute;
+  position: relative;
+  margin: auto;
+  max-width: 1050px;
   content: 'button';
   height: 350px;
   width: 550px;
@@ -87,7 +90,7 @@ span a:hover {
   background-color: #392a48;
 }
 
-.visit{
+.visit {
   position: relative;
   margin-top: 10px;
   margin-left: 20%;
@@ -97,19 +100,93 @@ span a:hover {
   font-size: 25px;
   color: #392a48;
 }
-.site{
+.site {
   margin-top: 0px;
   margin-bottom: 30px;
   padding: 2px 5px;
   margin-right: 20px;
   font-family: 'Montserrat';
   font-size: 22px;
-  font-weight: 100px;
-
+  font-weight: 500px;
 }
-.site:hover{
-  color:#8109fa;
-    
+.site:hover {
+  color: #6e0dcf;
+  
 }
 
 
+@media screen and (max-width: 320px) {
+  .project-one {
+    margin: auto;
+  max-width: 350px;
+    display: flex;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+  }
+
+  span a:before,
+span a:after {
+  position: relative;
+  margin: auto;
+  max-width: 300px;
+  content: 'button';
+  height: 150px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .project-one {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+  }
+
+  span {
+    display:flex;
+    width: 80px;
+    height: 40px;
+    margin: 0 10px;
+    perspective: 100px;
+  }
+
+  span a:before,
+span a:after {
+  position: relative;
+  /* margin: auto; */
+  margin-left: 35px;
+  max-width: 250px;
+  content: 'button';
+  height: 200px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.tech-stack {
+  position: relative;
+  margin-right: 500px;
+  display: flex;
+  width: 150px;
+  font-family: 'Candal';
+  font-size: 20px;
+  color: #392a48;
+}
+ 
+}
